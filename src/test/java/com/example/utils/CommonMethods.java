@@ -13,7 +13,7 @@ public class CommonMethods {
     }
 
     public WebDriver configureChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\azizeh.hasan\\Downloads\\TestJenkins\\untitled\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\QAAuto\\Downloads\\chromedriver.exe");
         return new ChromeDriver();
     }
 
